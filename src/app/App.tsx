@@ -4,6 +4,7 @@ import { GlobalStyles } from "../styles/Globals";
 import { ProfileCard } from "../components/ProfileCard";
 import { Header } from "../components/Header";
 import avatar from  "../assets/img/avatar.jpeg";
+import { About } from "../components/About";
 
 import * as S from "./App.styles";
 
@@ -15,6 +16,7 @@ export function App() {
 
         <S.AboutInfoContainer>
           <ProfileCard avatar={avatar} />
+          <About />
         </S.AboutInfoContainer>
         <GlobalStyles />
       </S.PageWrapper>
