@@ -13,8 +13,8 @@ export const experiences = [
         title: "Colaboração em projetos ágeis",
         content: `
             Participei ativamente em projetos ágeis,
-            contribuindo com reuniões diárias, revisões de código e iterações de
-            desenvolviment
+            contribuindo com reuniões diárias, revisões de código e interações de
+            desenvolvimento.
         `,
     },
     {
