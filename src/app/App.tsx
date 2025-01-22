@@ -5,6 +5,7 @@ import { ProfileCard } from "../components/ProfileCard";
 import { Header } from "../components/Header";
 import avatar from  "../assets/img/avatar.jpeg";
 import { About } from "../components/About";
+import { ProfessionalExperience } from "../components/ProfessionalExperience";
 
 import * as S from "./App.styles";
 
@@ -17,6 +18,7 @@ export function App() {
         <S.AboutInfoContainer>
           <ProfileCard avatar={avatar} />
           <About />
+          <ProfessionalExperience />
         </S.AboutInfoContainer>
         <GlobalStyles />
       </S.PageWrapper>
